@@ -1,5 +1,6 @@
 # Dios-Pizzaria
-Projeto Final de HTML e CSS - Desenvolver um site para um restaurante que exiba um cardápio, horários e um formulário para contato.
+*Projeto Final de HTML e CSS - Desenvolver um site para um restaurante que exiba um cardápio, horários e um formulário para contato.*
+------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/paulorosadodev/Dios-Pizzaria/assets/117609505/e76b4220-f0de-4ec5-bf5d-4f9e3732eea1)
 ![image](https://github.com/paulorosadodev/Dios-Pizzaria/assets/117609505/6c6676af-7c87-4340-a89c-5b549b0d35ef)
 ![image](https://github.com/paulorosadodev/Dios-Pizzaria/assets/117609505/d779d6cc-6840-4ff6-a40f-09eccb92f707)
