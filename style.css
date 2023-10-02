@@ -8,6 +8,7 @@
   height: auto;
   margin-top: 10px;
   margin-bottom: -20px;
+  margin-left: 20px;
 }
 
 .topnav {
@@ -17,7 +18,7 @@
   align-items: center;
   flex-direction: column;
   box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
-  
+
 }
 
 .topnav a {
@@ -41,8 +42,15 @@
   scale: 1.1;
 }
 
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
 li {
-  display: inline;
   margin-left: 8px;
   position: relative;
 }
@@ -75,7 +83,7 @@ li {
   width: 700px;
   margin-top: 20px;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .imagens {
@@ -120,7 +128,8 @@ li {
   text-align: center;
 }
 
-#entradas, #sobremesas {
+#entradas,
+#sobremesas {
   background-color: #004a22;
   box-shadow: 0px 0px 10px 0px black;
   width: 100%;
@@ -131,7 +140,8 @@ li {
   text-align: center;
 }
 
-#pizzas, #bebidas {
+#pizzas,
+#bebidas {
   width: 100%;
   display: flex;
   align-items: center;
@@ -141,7 +151,8 @@ li {
 }
 
 
-#pizzas p, #bebidas p{
+#pizzas p,
+#bebidas p {
   font-family: 'calibri';
   src: url('fonts/calibri.ttf');
   font-size: 25px;
@@ -156,7 +167,7 @@ li {
   flex-direction: row;
   text-align: center;
   gap: 50px;
-  
+
 }
 
 .pratos {
@@ -169,5 +180,36 @@ li {
   scale: 1.1;
   transition: all .1s;
   cursor: pointer;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -4px;
+  background-color: #128a52;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 6px black;
+}
+
+
+li:hover .submenu {
+  display: block;
+}
+
+
+.submenu li {
+  margin-right: 0;
+}
+
+.submenu a {
+  font-weight: normal;
+  color: #fff;
+}
+
+.submenu a:hover {
+  color: #be0411;
 }
