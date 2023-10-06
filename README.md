@@ -7,3 +7,6 @@
 ![image](https://github.com/paulorosadodev/Dios-Pizzaria/assets/117609505/783b05ce-2702-475d-82b7-41a924e5431e)
 ![image](https://github.com/paulorosadodev/Dios-Pizzaria/assets/117609505/681d90b4-71cd-4edd-8f27-e6aec660d65f)
 ![image](https://github.com/paulorosadodev/Dios-Pizzaria/assets/117609505/678ffdb3-828c-4ded-81fa-fce3b46b54c7)
+![image](https://github.com/paulorosadodev/Dios-Pizzaria/assets/117609505/22423d9c-1af6-4ead-af42-9ccd720062c3)
+![image](https://github.com/paulorosadodev/Dios-Pizzaria/assets/117609505/e7784176-1be8-49f4-a2f3-ca7225f23ba3)
+https://paulorosadodev.github.io/Dios-Pizzaria/
