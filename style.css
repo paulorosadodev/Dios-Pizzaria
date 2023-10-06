@@ -18,7 +18,6 @@
   align-items: center;
   flex-direction: column;
   box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
-
 }
 
 .topnav a {
@@ -164,7 +163,6 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row;
   text-align: center;
   gap: 50px;
 
@@ -212,4 +210,162 @@ li:hover .submenu {
 
 .submenu a:hover {
   color: #be0411;
+}
+
+#horarios {
+  background-color: #be0411;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+}
+
+#horarios h1 {
+  font-family: 'bahnschrift';
+  src: url('fonts/bahnschrift.ttf');
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#horas p {
+  font-family: 'calibri';
+  src: url('fonts/calibri.ttf');
+  font-size: 30px;
+  color: #004a22;
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 50px;
+}
+
+#horas {
+  background-color: #ffffff;
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#contato h1 {
+  font-family: 'bahnschrift';
+  src: url('fonts/bahnschrift.ttf');
+  font-size: 60px;
+  color: #128a52;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+}
+
+button {
+  width: 514px;
+  height: 40px;
+  background-color: #128a52;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+  border: 0px;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #004a22;
+  transition: all .2s;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+label {
+  font-size: 17px;
+  font-family: 'calibri';
+  src: url('font\CALIBRI.TTF');
+  margin: 0px;
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#mensagem {
+  width: 500px;
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+  padding: 5px;
+  resize: none;
+  font-family: 'calibri';
+  src: url('font\CALIBRI.TTF');
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+  padding: 5px;
+  font-family: 'calibri';
+  src: url('font\CALIBRI.TTF');
+}
+
+input:focus,
+#mensagem:focus {
+  outline: 1px solid #adaeaf;
+}
+
+footer {
+  background-color: #be0411;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+}
+
+footer p {
+  font-family: 'calibri';
+  src: url('fonts/calibri.ttf');
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0px;
+}
+
+footer a {
+  font-family: 'calibri';
+  src: url('fonts/calibri.ttf');
+  font-size: 17px;
+  color: #51D6FF;
+  text-align: center;
+  margin-top: 0px;
+  text-decoration: none;
+  font-weight: bold
 }
